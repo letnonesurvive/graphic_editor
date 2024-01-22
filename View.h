@@ -1,5 +1,7 @@
 #pragma once
+
 #include "Model.h"
+#include <string>
 
 //Everything UI related
 namespace View
