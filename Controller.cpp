@@ -11,16 +11,22 @@ void Importer::Import (const string& thePath, Model::Document* theDocument)
 
 void Importer::DoImport (const string& thePath, Model::Document* theDocument)
 {
+    (void)thePath;
+    (void)theDocument;
     //importing document
 }
 
 void Exporter::Export (const string& thePath, Model::Document* theDocument)
 {
+    (void)thePath;
+    (void)theDocument;
     DoExport(thePath, theDocument);
 }
 
 void Exporter::DoExport (const string& thePath, Model::Document* theDocument)
 {
+    (void)thePath;
+    (void)theDocument;
     //exporting document
 }
 

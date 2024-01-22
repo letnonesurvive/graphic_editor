@@ -22,12 +22,17 @@ int UI::GetInput() const
     return aNumber;
 }
 
+void UI::ShowDocument (const Model::Document* theDocument) const
+{
+    (void)theDocument;
+}
+
 Model::Point3D UI::GetPoint() const
 {
     return Model::Point3D();
 }
 
-const Model::Document::GraphicalPrimitive UI::GetGraphicalPrimitive (const Model::Point3D & aPoint) const
+Model::Document::GraphicalPrimitive UI::GetGraphicalPrimitive (const Model::Point3D & aPoint) const
 {
     return Model::Document::GraphicalPrimitive (aPoint);
 }
@@ -41,6 +46,11 @@ std::string UI::EnterPath() const
 std::string UI::ReturnPath() const
 { 
     return string(); 
+}
+
+void UI::ShowGraphicalPrimitive (const Model::Document::GraphicalPrimitive* thePrimitive)
+{
+    (void)thePrimitive;
 }
 
 }
