@@ -1,4 +1,4 @@
-# Task 5
+# Task
 
 Design the simplest vector graphic editor. Prepare class layouts reflecting the structure of the future project.
 
