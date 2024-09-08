@@ -1,25 +1,19 @@
-# Задание 5
+# Task 5
 
-Спроектировать простейший графический векторный редактор. Подготовить макеты классов,
-отражающих структуру будущего проекта.
-Функционал для макетирования следующий:
-- создание нового документа
-- импорт документа из файла
-- экспорт документа в файл
-- создание графического примитива
-- удаление графического примитива
-  
-Основной упор сделать на шаблон контроллера (MVC) и полиморфизм. Функции, являющиеся
-обработчиками GUI, собрать в одном файле с функцией `main`.
-Внимание должно быть сосредоточено на декларациях, реализация только в крайнем случае для
-минимальной демонстрации необходимых вызовов. Проект должен компилироваться, все
-заголовки должны пройти стадию компиляции.
-Задание считается выполненным успешно, если все файлы прошли стадию компиляции, все классы
-охвачены диаграммами, код успешно прошел анализ.
+Design the simplest vector graphic editor. Prepare class layouts reflecting the structure of the future project.
 
-## Дополнительные рекомендации
-1. Заложить в интерфейсы использование умных указателей, тем самым решив вопрос
-владения объектами.
-2. Помнить про принцип единственности ответственности, разделить код на логические
-модули (классы, функции).
-3. Избегать дублирования кода.
+Functional requirements for the mock-up are as follows:
+
+* Creating a new document
+* Importing a document from a file
+* Exporting a document to a file
+* Creating a graphic primitive
+* Deleting a graphic primitive
+
+Focus primarily on the controller template (MVC) and polymorphism. Gather GUI handler functions in one file with the main function. Attention should be given to declarations; implementation is only necessary for minimal demonstration of required calls. The project must compile, and all headers must pass the compilation stage. The assignment is considered successful if all files compile, all classes are covered by diagrams, and the code successfully passes analysis.
+
+## Additional Recommendations
+
+1. Incorporate the use of smart pointers in interfaces to manage object ownership.
+2. Keep the single responsibility principle in mind and divide the code into logical modules (classes, functions).
+3. Avoid code duplication.
